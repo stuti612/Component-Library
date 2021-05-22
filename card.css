@@ -4,7 +4,7 @@
 .card-vertical {
   box-shadow: 5px 5px 5px 0px rgba(112, 112, 112, 0.79);
   max-width: 200px;
-  height: auto;
+  /* height: auto; */
   /* margin-right: 5rem; */
 }
 img {
