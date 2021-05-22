@@ -1,31 +1,31 @@
-.card{
+/* .card{
   display: flex;
-}
-.card-vertical{
-  box-shadow: 5px 5px 5px 0px      rgba(112,112,112,0.79);
+} */
+.card-vertical {
+  box-shadow: 5px 5px 5px 0px rgba(112, 112, 112, 0.79);
   max-width: 200px;
   height: auto;
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
-.card-text{
+.card-text {
   padding-left: 0.3rem;
 }
-.price-original{
+.price-original {
   font-size: 0.88rem;
   text-decoration: line-through;
   color: #707070;
 }
-.discount-percent{
-  color: #FFC300;
+.discount-percent {
+  color: #ffc300;
   font-size: 0.85rem;
 }
-.card-horizontal{
+.card-horizontal {
   display: flex;
-  box-shadow: -5px 5px 5px 0px      rgba(112,112,112,0.79);
+  box-shadow: -5px 5px 5px 0px rgba(112, 112, 112, 0.79);
   max-width: 300px;
   height: auto;
 }
