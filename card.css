@@ -1,0 +1,54 @@
+.card-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  height: auto;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.card-cart-btn {
+  padding: 0.2rem;
+  background-color: #f1c40f;
+  border: none;
+  margin: 0.2rem 0.1rem;
+  border-radius: 0.5rem;
+}
+.card-wishlist-btn {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.7rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #f1c40f;
+  color: white;
+}
+.fa-heart:hover {
+  color: red;
+}
+.card-remove-btn {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.7rem;
+  background: white;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+}
+.qty-btn {
+  margin: 0.1rem;
+  background-color: #f1c40f;
+  border-radius: 0.5rem;
+}
