@@ -1,5 +1,9 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+:root {
+  --main-color: #f1c40f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
